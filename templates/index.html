@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>File Organizer</title>
+    <style>
+        body {
+            font-family: Arial;
+            background: #f4f4f4;
+            text-align: center;
+            padding-top: 100px;
+        }
+        input {
+            width: 400px;
+            padding: 10px;
+        }
+        button {
+            padding: 10px 20px;
+            margin-top: 10px;
+        }
+        p {
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <h2>File Organizer</h2>
+
+    <form method="POST">
+        <input type="text" name="directory" placeholder="Enter folder path" required>
+        <br><br>
+        <button type="submit">Organize Files</button>
+    </form>
+
+    <p>{{ message }}</p>
+</body>
+</html>
